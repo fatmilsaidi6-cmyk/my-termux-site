@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Termux Web Server</title>
+        <style>
+                body { font-family: sans-serif; text-align: center; background-color: #121212; color: #00ff00; padding: 50px; transition: background 0.3s; }
+                        h1 { border-bottom: 2px solid #00ff00; display: inline-block; }
+                                button { background: #00ff00; color: black; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-top: 20px; }
+                                    </style>
+                                    </head>
+                                    <body id="mainBody">
+                                        <h1>Welcome to my Termux Site</h1>
+                                            <p>This page is being hosted from my Android phone!</p>
+
+                                                    <button onclick="changeColor()">Surprise Me!</button>
+
+                                                        <script>
+                                                                function changeColor() {
+                                                                	            const colors = ['#121212', '#1a1a2e', '#2d033b', '#000000', '#1e212d'];
+                                                                	                        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+                                                                	                                    document.getElementById('mainBody').style.backgroundColor = randomColor;
+                                                                	                                            }
+                                                                	                                                </script>
+                                                                	                                                </body>
+                                                                	                                                </html>
+                                                                	                                                
+                                                                }
